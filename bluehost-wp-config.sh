@@ -18,7 +18,7 @@ echo password="P@ssw0rd123P@ssw0rd123"
 
 read -p "PLEASE VERIFY CONFIG (y or n): " decision
 
-if [ $decision == "y" ] 
+if [ $decision = "y" ] 
 then
 
 echo dns=$url > config
