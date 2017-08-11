@@ -15,9 +15,9 @@ wp db create
 wp core install --url=$url --title=$title --admin_user=$admin --admin_email=$email --admin_password=$password 
 wp option set blog_public 0
 wp option get permalink_structure
-wp option update permalink_structure '/%postname%'
-wp option get permalink_structure
-wp rewrite structure /%postname%/
+#wp option update permalink_structure '/%postname%'
+#wp option get permalink_structure
+#wp rewrite structure /%postname%/
 wp core version
 wp plugin list
 wp theme list

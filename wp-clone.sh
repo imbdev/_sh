@@ -1,7 +1,7 @@
 #!/bin/bash
 
 pwd
-read -p "PLEASE Verify Folder You Are Installing WP (y or n): " decision
+read -p "PLEASE Verify This Folder is The SOURCE Folder You Are Cloning (y or n): " decision
 
 if [ $decision == "y" ] 
 then

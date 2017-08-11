@@ -10,8 +10,8 @@ adminpass="P@ssw0rdP@ssw0rd"
 echo dns=$url 
 echo database=$database 
 echo title=$title 
-echo admin=imbteam 
-echo email=wecare@inspiredmommyboss.com 
+echo admin=omenteam 
+echo email=support@omeninteractive.com 
 echo password=$adminpass 
 
 read -p "PLEASE VERIFY CONFIG (y or n): " decision
@@ -22,8 +22,8 @@ then
 echo dns=$url > config
 echo database=$database >> config
 echo title=$title >> config
-echo admin=imbteam >> config
-echo email=wecare@inspiredmommyboss.com >> config
+echo admin=omenteam >> config
+echo email=support@omeninteractive.com >> config
 echo password=$adminpass >> config
 
 echo "FINAL CONFIG CONTENT"
