@@ -1,0 +1,17 @@
+total 120
+-rwxr-xr-x  1 shourav  staff  1057 Jul 17 15:53 LICENSE
+-rwxr-xr-x  1 shourav  staff   317 Jul 17 15:54 test.sh
+-rwxr-xr-x  1 shourav  staff   180 Jul 17 15:54 plugin-list
+-rwxr-xr-x  1 shourav  staff   141 Jul 17 15:54 plugin-install.sh
+-rwxr-xr-x  1 shourav  staff   789 Jul 17 15:54 org-wp-install.sh
+-rwxr-xr-x  1 shourav  staff   716 Jul 17 15:54 bak-wp-install.sh
+-rw-r--r--  1 shourav  staff   967 Aug  5 15:30 bluehost-wp-install.sh
+-rw-r--r--  1 shourav  staff  1003 Aug  5 15:33 bluehost-wp-check.sh
+-rw-r--r--  1 shourav  staff   731 Aug  5 15:34 bluehost-wp-update.sh
+-rw-r--r--  1 shourav  staff  2007 Aug  5 20:01 bash_profile.5aug2017
+-rw-r--r--  1 shourav  staff   874 Aug  7 09:14 bluehost-wp-config.sh
+-rwxr-xr-x  1 shourav  staff   872 Aug  8 09:59 wp-install.sh
+-rwxr-xr-x  1 shourav  staff  2734 Aug  8 10:02 wp-clone.sh
+-rwxr-xr-x  1 shourav  staff   746 Aug 16 14:27 config-wp.sh
+-rw-r--r--  1 shourav  staff  2710 Oct  1 09:07 bash_profile_1Oct2017
+-rw-r--r--  1 shourav  staff     0 Nov 25 19:15 file
