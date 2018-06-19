@@ -1,22 +1,21 @@
-jQuery(document).ready(function($) {
+// jQuery(document).ready(function($) {
 
-  var adminContent = $( '.wp-list-table' );
-  // console.log( adminContent );
+//   var adminContent = $( '.wp-list-table' );
 
-  adminContent.click( function(){
+//   adminContent.click( function(){
 
-  	$( this ).css('border', '1rem solid #e3e3e3');
+//   	$( this ).css('border', '1rem solid #e3e3e3');
 
-  });
+//   });
 	
-});
+// });
 
 
 
-class App {
-	constructor() {
-		console.info( 'ES6 App Initialized!' );
-	}
-}
+// class App {
+// 	constructor() {
+// 		console.info( 'ES6 App Initialized!' );
+// 	}
+// }
 
-const app = new App();
+// const app = new App();

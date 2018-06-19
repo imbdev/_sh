@@ -3,7 +3,7 @@
 /**
 * MPF Scripts Enqueue Class
 */
-class MPFStarterEnqueue
+class MPF[Replace]Enqueue
 {
 	
 	function __construct()
@@ -13,8 +13,8 @@ class MPFStarterEnqueue
 
 	public function initialize() {
 
-		add_action( 'admin_enqueue_scripts', array( $this, 'enqueue_admin_styles' ) );
-		add_action( 'admin_enqueue_scripts', array( $this, 'enqueue_admin_scripts' ) );
+		// add_action( 'admin_enqueue_scripts', array( $this, 'enqueue_admin_styles' ) );
+		// add_action( 'admin_enqueue_scripts', array( $this, 'enqueue_admin_scripts' ) );
 
 		add_action( 'wp_enqueue_scripts', array( $this, 'enqueue_public_styles' ) );
 		add_action( 'wp_enqueue_scripts', array( $this, 'enqueue_public_scripts' ) );
@@ -25,7 +25,7 @@ class MPFStarterEnqueue
 
 		wp_enqueue_style(
 			
-			'moose-post-notice-admin',
+			'[replace]-admin',
 			plugins_url( '/assets/dist/css/admin.min.css', __FILE__ ),
 			array(),
 			'1.0'
@@ -36,7 +36,7 @@ class MPFStarterEnqueue
 
 		wp_enqueue_style(
 			
-			'moose-post-notice-public',
+			'[replace]-public',
 			plugins_url( '/assets/dist/css/public.min.css', __FILE__ ),
 			array(),
 			'1.0'
@@ -49,29 +49,29 @@ class MPFStarterEnqueue
 
 		wp_enqueue_script(
 			
-			'moose-post-notice-admin',
+			'[replace]-admin',
 			plugins_url( '/assets/dist/js/admin.min.js', __FILE__ ),
 			array('jquery'),
 			'1.0'
 
 		);
 
-		wp_enqueue_script(
+		// wp_enqueue_script(
 			
-			'moose-bootstrap-4',
-			'https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js',
-			array('jquery'),
-			'1.0',
-			true
+		// 	'moose-bootstrap-4',
+		// 	'https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js',
+		// 	array('jquery'),
+		// 	'1.0',
+		// 	true
 
-		);
+		// );
 		
 	}	
 	public function enqueue_public_scripts() {
 
 		wp_enqueue_script(
 			
-			'moose-post-notice-public',
+			'[replace]-public',
 			plugins_url( '/assets/dist/js/public.min.js', __FILE__ ),
 			array('jquery'),
 			'1.0',
@@ -79,15 +79,15 @@ class MPFStarterEnqueue
 
 		);
 
-		wp_enqueue_script(
+		// wp_enqueue_script(
 			
-			'moose-bootstrap-4',
-			'https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js',
-			array('jquery'),
-			'1.0',
-			true
+		// 	'moose-bootstrap-4',
+		// 	'https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js',
+		// 	array('jquery'),
+		// 	'1.0',
+		// 	true
 
-		);
+		// );
 	}	
 }
 

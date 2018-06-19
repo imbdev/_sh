@@ -1,14 +1,12 @@
-jQuery(document).ready(function($) {
+// jQuery(document).ready(function($) {
 
-  var adminContent = $( '.list-group-item' );
-  // console.log( adminContent );
+//   var adminContent = $( '.list-group-item' );
 
-  adminContent.click( function(){
+//   adminContent.click( function(){
 
-  	// alert('Whadap!');
-  	$( this ).css('background-color', 'dodgerblue')
-  			 .css('color', 'white');
+//   	$( this ).css('background-color', 'dodgerblue')
+//   			 .css('color', 'white');
 
-  });
+//   });
 	
-});
+// });

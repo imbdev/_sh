@@ -1,9 +1,9 @@
 <?php 
 
 /**
-* Post Notice Class
+* [Replace] Class
 */
-class Moose_Plugin
+class [Replace]
 {
 	
 	function __construct()

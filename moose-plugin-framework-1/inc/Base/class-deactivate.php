@@ -3,7 +3,7 @@
 /**
 * PLUGIN DEACTIVATION CLASS
 */
-class MPFStarterDeactivate
+class MPF[Replace]Deactivate
 {
 	function __construct()
 	{
